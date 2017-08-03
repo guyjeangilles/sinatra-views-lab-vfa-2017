@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Homepage</title>
+</head>
+<body>
+  <% time = Time.new %>
+  <% wday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'] %>
+  <% month = [0,1,2,3,4,5,6,7,'August',8,9,10,11,12] %>
+
+  <h1>The date is <%= wday[time.wday] %>, <%= month[time.month] %> 0<%= time.day %>, <%=time.year %></h1>
+  </h1>
+</body>
+</html>
